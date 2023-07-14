@@ -8,21 +8,28 @@
 </head>
 <body>
     <h1 class="welcome">Welcome to Tic-Tac-Toe</h1>
-    <div class="player">
-        <label>Player-1:</label>
-        <input type="text" id="1st_player" placeholder="Enter name">
+    <div class="flex-container-1">
+        <div class="">
+            <button id="start">Start New Game</button>
+        </div>
+        <div class="players">
+            <div class="player">
+                <label>Player-1:</label>
+                <input type="text" id="1st_player" placeholder="Enter name">
+            </div>
+        
+            <div class="player">
+                <label>Player-2:</label>
+                <input type="text" id="2nd_player" placeholder="Enter name">
+            </div>
+        </div>
+        <div id="score">
+            <h1 id="score-title">Score</h1>
+            <h2 id="player-1-display">Player 1: 0</h2>
+            <h2 id="player-2-display">Player 2: 0</h2> 
+        </div>
     </div>
-    
-    <div class="player">
-        <label>Player-2:</label>
-        <input type="text" id="2nd_player" placeholder="Enter name">
-    </div>
-    
-    <div id="score">
-        <h2 id="player-1-score">Player 1: 0</h2>
-        <h2 id="player-2-score">Player 2: 0</h2> 
-    </div>
-    <div class="flex-container">
+    <div class="flex-container-2">
         <div class="grid-container">
             <div class="sqr-slot" id="slot-1"></div>
             <div class="sqr-slot" id="slot-2"></div>

@@ -1,4 +1,16 @@
-.flex-container {
+h1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+}
+.flex-container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +27,11 @@
   
 .sqr-slot {
   background-color: #f2f2f2;
-  padding: 10px;
   border: 1px solid #290808;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Remove boundary code from chatgpt */
@@ -32,3 +47,4 @@
 .sqr-slot:nth-child(n+7) {
     border-bottom: none;
 }
+
